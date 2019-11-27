@@ -1,0 +1,25 @@
+.heading-1 {
+    font-size: 4.5rem;
+    color: var(--color-grey-light-1);
+    text-align: center;
+    line-height: 1;
+}
+
+.heading-2 {
+    font-size: 3rem;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.heading-3 {
+    font-size: 1.6rem;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+.heading-4 {
+    font-size: 1.9rem;
+    &--light { color: var(--color-grey-light-2); }
+    &--dark { color: var(--color-grey-dark-2); }
+}

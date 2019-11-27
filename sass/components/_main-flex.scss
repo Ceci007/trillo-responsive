@@ -1,0 +1,126 @@
+///////////////////////////////////////////////////////////////
+// main flex content:
+///////////////////////////////////////////////////////////////
+
+// gallery
+.gallery {
+    display: flex;
+    @media only screen and (max-width: $bp-small) {
+        flex-direction: column;
+    }
+    &__photo {
+        width: 100%;
+        display: block;
+        @media only screen and (max-width: $bp-small) {
+            margin-top: -.1rem;
+        }
+    }
+}
+// hotel overview 
+.overview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: var(--line);
+    margin-top: -.2rem;
+    @media only screen and (max-width: $bp-smallest) {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        height: 11rem; 
+    }
+}
+
+.overview-1 {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    @media only screen and (max-width: $bp-smallest) {
+        display: flex;
+        flex: 0 0 100%;
+        margin-right: 0;
+        justify-content: center;
+        border-bottom: var(--line);
+    }
+    &__heading {
+        font-size: 2.25rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        padding: 1.5rem 3rem;
+        @media only screen and (max-width: $bp-small) {
+            font-size: 1.8rem;
+            padding: 1.25rem 2rem;
+        }
+    }
+    &__stars {
+        display: flex;
+        & i {
+            font-size: 1.7rem;
+            color: var(--color-primary);
+        }
+    }
+}
+
+.overview-2 {
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: $bp-smallest) {
+        display: flex;
+        order: 1;
+        flex: 0 0 100%;
+        align-self: stretch;
+        padding: 2.2rem 0;
+        position: relative;
+        background-color: var(--color-grey-light-4);
+    }
+    &__location {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        transition: all .3s;
+        @media only screen and (max-width: $bp-smallest) {
+            margin-left: 3rem;
+        }
+        & i {
+            font-size: 1.7rem;
+            color: var(--color-primary);
+            margin-right: .5rem;
+        }
+    }
+    &__rating {
+        background-image:  linear-gradient(to right bottom, 
+        var(--color-primary), var(--color-secondary));
+        margin-left: 3rem;
+        color: #fff;
+        padding: 1.5rem 2.25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        @media only screen and (max-width: $bp-smallest) {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 2.2rem 3rem;
+        }
+        &-average {
+            font-size: 2.25rem;
+            font-weight: 300;
+            margin-bottom: -.3rem;
+            @media only screen and (max-width: $bp-small) {
+                font-size: 1.8rem;
+                padding: 2rem;
+            }
+        }
+        &-count {
+            font-size: .8rem;
+            text-transform: uppercase;
+            @media only screen and (max-width: $bp-small) {
+                font-size: .5rem;
+            }
+        }
+    }
+}

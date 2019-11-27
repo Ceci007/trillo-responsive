@@ -1,0 +1,31 @@
+$bp-largest: 75em;                     // 1200px
+$bp-large: 68.75em;                    // 1100px
+$bp-medium: 56.25em;                   // 900px
+$bp-small: 37.5em;                     // 600px
+$bp-smallest: 31.25em;                 // 500px
+
+:root {
+    --color-primary: #eb2f64;
+    --color-primary-light: #FF3366;
+    --color-primary-dark: #BA265D;
+
+    --color-secondary: #f08315;
+    --color-secondary-light: #f39b43;
+    --color-secondary-dark: #f08315;
+
+    --color-red: #ec5252;
+
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #f4f2f2;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
+
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+    --shadow-light: 0 2rem 5rem rgba(0,0,0,.15);
+
+    --line: 1px solid var(--color-grey-ligh-2);
+}

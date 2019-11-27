@@ -1,0 +1,47 @@
+///////////////////////////////////////////////////////////////
+// footer section:
+///////////////////////////////////////////////////////////////
+
+// footer
+.footer {
+    display: grid;
+    grid-template-rows: max-content 1fr; 
+    grid-row-gap: 1.5rem;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1.4rem;
+    padding: 3rem 2rem;
+    background-color: var(--color-grey-dark-1);
+    color: var(--color-grey-light-2);
+    &__content {
+        display: grid;
+        justify-content: center;
+        margin: 0 auto !important;
+    }
+    &__form {
+        margin-bottom: 6rem !important;
+    }
+    &__input {
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        background-color: rgba(#fff,.1);
+        border: none;
+        padding: .7rem 2rem;
+        border-radius: .6rem;
+        width: 100%;
+        transition: all .3s;
+        margin-bottom: 1.5rem;
+        &:focus {
+            outline: none;
+            background-color: var(--color-grey-dark-2);
+        }
+        &::-webkit-input-placeholder {
+            font-weight: 100;
+            color: var(--color-grey-light-4);
+        }
+    }
+    &__text {
+        width: 100%;
+    }
+}

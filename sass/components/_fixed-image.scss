@@ -1,0 +1,16 @@
+.fixed-image {
+    & > * {
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 35rem;
+    }
+    &--1 {
+        background-image: url(../img/fixed1.jpg);
+    }
+    
+    &--2 {
+        background-image: url(../img/fixed2.jpeg);
+    }
+}
+

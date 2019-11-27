@@ -1,0 +1,71 @@
+///////////////////////////////////////////////////////////////
+// description section:
+///////////////////////////////////////////////////////////////
+
+// paragraph
+.paragraph:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+// list
+.list {
+    list-style: none;
+    margin: 3rem 0;
+    padding: 3rem 0;
+    border-top: var(--line);
+    border-bottom: var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    &__item {
+        display: flex;
+        flex: 0 0 50%;
+        margin-bottom: .7rem;
+    }
+    &__item:before {
+        content: "\f054"; 
+        color: var(--color-primary);
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-right: 1rem
+    }
+}
+
+// recomend
+.recomend {
+    font-size: 1.3rem;
+    color: var(--color-grey-dark-3);
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: $bp-smallest) {
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__count {
+        margin-right: auto;
+        @media only screen and (max-width: $bp-smallest) {
+            margin-right: 0;
+        }
+    }
+    &__friends {
+        display: flex;
+        @media only screen and (max-width: $bp-smallest) {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+    &__photo {
+        box-sizing: content-box;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 100%;
+        border: 3px solid #fff;
+        @media only screen and (max-width: $bp-smallest) {
+            margin-top: 2rem;
+        }
+        &:not(:last-child) {
+            margin-right: -2.5rem;
+            @media only screen and (max-width: $bp-small) {
+                margin-right: -2rem;
+            }
+        }
+    }
+}

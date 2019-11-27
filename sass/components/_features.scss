@@ -1,0 +1,36 @@
+.features-box {
+    padding: 15rem 0;
+}
+
+.features {
+    padding: 0 6rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-gap: 6rem;
+    align-items: start;
+    justify-content: center;
+    grid-auto-rows: 24rem;
+}
+
+.feature-box {
+    box-shadow: var(--shadow-dark);
+    border-radius: .7rem;
+    height: 100%;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2.5rem;
+    padding: 3rem;
+    i {
+        color: var(--color-primary);
+        font-size: 3rem;
+        grid-row: 1 / span 2;
+    }
+    &__text {
+        font-size: 1.7rem;
+        grid-column: 1 / -1;
+    }
+}

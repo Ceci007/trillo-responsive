@@ -1,0 +1,20 @@
+.container-flex {
+  width: 100%;
+  background-color: var(--color-grey-light-1);
+  box-shadow: var(--shadow-dark);
+  min-height: 40rem;
+  @media only screen and (max-width: $bp-largest) {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.container-grid {
+  @media only screen and (max-width: $bp-smallest) {
+    max-width: 100%;
+    width: 100%;
+  }
+  display: grid;
+  grid-template-rows: 35rem 1fr 35rem 1fr max-content max-content;
+}
