@@ -3,7 +3,7 @@
 > This is a page made with HTML and Sass, we made it ultra responsive so it has some amazing mediaqueries.
 
 ![screenshot](./app_screenshot.png)
-<meta property="og:image" content="https://github.com/Ceci007/image-repository/blob/master/trillo.jpg?raw=true">
+<meta property="og:image" content="https://github.com/Ceci007/image-repository/blob/master/trillo.jpg?raw=true#keepProtocol">
 
 ## 🔧 Built With
 
