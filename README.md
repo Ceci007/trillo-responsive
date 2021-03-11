@@ -1,4 +1,4 @@
-#  🧐 trillo-responsive
+#  🧐 trillo responsive
 
 > This is a page made with HTML and Sass, we made it ultra responsive so it has some amazing mediaqueries.
 
