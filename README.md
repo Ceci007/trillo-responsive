@@ -14,7 +14,7 @@
 
 ## 🔴 Live Demo
 
-[Live Demo Link](https://ceci007.github.io/trillo-responsive/)
+[Live Demo](https://ceci007.github.io/trillo-responsive/)
 
 
 ## 🛠 Getting Started
