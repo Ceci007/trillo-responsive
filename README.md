@@ -29,8 +29,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Cecilia Benitez**
 
-- Github: [@Ceci007](https://github.com/Ceci007)
-- LinkenIn:[LinkenIn](https://www.linkedin.com/in/cecilia-ben%C3%ADtez-casaccia-498669185/)
+- [@Ceci007](https://github.com/Ceci007)
+- [LinkenIn](https://www.linkedin.com/in/cecilia-ben%C3%ADtez-casaccia-498669185/)
 
 
 ## 🤝 Contributing
