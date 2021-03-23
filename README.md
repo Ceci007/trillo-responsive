@@ -22,7 +22,7 @@
 To get a local copy up and running follow these simple example steps.
 
 - Go to the main page of te repo.
-- Press the "Code" button and get the repo link.
+- Press the ```Code``` button and get the repo link.
 - Clone it using git.
 
 ## ✒️ Authors
