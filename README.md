@@ -8,7 +8,7 @@
 ## 🔧 Built With
 
 - HTML
-- Sass (a CSS preprocesor).
+- Sass (.scss extension).
 - Using flexbox and CSS grid.
 - Using mediaqueris for Responsive Design.
 
