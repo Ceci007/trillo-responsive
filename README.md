@@ -1,6 +1,6 @@
 #  🧐 trillo responsive
 
-> This is a page made with HTML and Sass, we made it ultra responsive so it has some amazing mediaqueries.
+> This is a page made with HTML and Sass, we made it ultra responsive so it has some amazing mediaqueries
 
 ![screenshot](./app_screenshot.png)
 <meta property="og:image" content="https://github.com/Ceci007/image-repository/blob/master/trillo.jpg?raw=true#keepProtocol">
@@ -31,7 +31,6 @@ To get a local copy up and running follow these simple example steps.
 👤 **Cecilia Benitez**
 
 - [@Ceci007](https://github.com/Ceci007)
-- [LinkenIn](https://www.linkedin.com/in/cecilia-ben%C3%ADtez-casaccia-498669185/)
 
 
 ## 🤝 Contributing
