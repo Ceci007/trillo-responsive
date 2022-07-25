@@ -11,7 +11,6 @@
 - Sass (.scss extension)
 - Using flexbox and CSS grid
 - Using mediaqueris for Responsive Design
-- parallax images
 
 ## 🔴 Live Demo
 
