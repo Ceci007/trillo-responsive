@@ -8,7 +8,7 @@
 ## 🔧 Built With
 
 - HTML
-- Sass (.scss extension)
+- Sass (extension .scss)
 - Using flexbox and CSS grid
 - Using mediaqueris for Responsive Design
 
