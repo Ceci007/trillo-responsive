@@ -1,7 +1,8 @@
 ##  🧐 trillo responsive
 
 > This is a page made with HTML and Sass, we made it ultra responsive so it has some amazing mediaqueries.
-> it also has some good uses of flexbox and grid css.
+
+> It also has some correct use cases of flexbox and grid css.
 
 ![screenshot](./app_screenshot.png)
 <meta property="og:image" content="https://github.com/Ceci007/image-repository/blob/master/trillo.jpg?raw=true#keepProtocol">
